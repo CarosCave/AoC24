@@ -1,0 +1,49 @@
+# General C++ files
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.class
+
+# Compiler generated files
+*.idb
+*.pdb
+*.ilk
+*.d
+*.dd
+
+# CLion specific files
+.idea/
+*.iml
+*.iws
+cmake-build-debug/
+cmake-build-release/
+run/
+*.ipr
+.vscode/
+
+# CMake specific files
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Testing/
+CTestTestfile.cmake
+Makefile
+build/
+
+# General OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+
+# Ignore the build directories within subdirectories
+Day_*/build/
+Day_*/cmake-build-debug/
+Day_*/cmake-build-release/
