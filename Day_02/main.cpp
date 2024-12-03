@@ -36,6 +36,7 @@ int main() {
             sichereBerichte++;
         }
     }
+    datei.close();
     cout << "Anzahl sicherer Berichte: " << sichereBerichte << endl;
     return 0;
 }
